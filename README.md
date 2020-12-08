@@ -30,8 +30,11 @@ pipx install poetry
 git clone https://github.com/xNinjaKittyx/web-enviroplus.git
 cd web-enviroplus
 poetry install
-poetry run webserver  # TODO
+./start.sh
 ```
 
 # Post-Installation
 Will require some `/boot/config.txt` changes - TODO
+
+# API
+API is not finalized. You can easily see the docs after running `./start.sh` by going to `http://IP:8000/docs`

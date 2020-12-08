@@ -17,11 +17,14 @@ ST7735 = "^0.0.4"
 numpy = "^1.19.4"
 enviroplus = "^0.0.3"
 pimoroni-bme280 = "^0.1.1"
+fastapi = "^0.62.0"
+uvicorn = "^0.12.3"
+psutil = "^5.7.3"
+Pillow = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
-webserver = "enviroweb.webserver:run"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
