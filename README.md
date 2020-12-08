@@ -8,9 +8,9 @@ Part of this project is also to make installing enviroplus easier... The origina
 
 This project will be using poetry to manage packages. Feel free to use this pyproject.toml as a starting point
 
-# Pre-requisite
-Python 3.7+
-Poetry
+# Pre-requisites
+- Python 3.7+
+- Poetry
 
 My personal favorite way to install using pyenv + pipx + poetry
 ```

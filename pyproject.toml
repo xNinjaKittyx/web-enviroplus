@@ -5,7 +5,7 @@ extra-index-url = "https://www.piwheels.org/simple"
 name = "enviroweb"
 version = "0.1.0"
 description = ""
-authors = ["Dan"]
+authors = ["xNinjaKittyx"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -19,6 +19,9 @@ enviroplus = "^0.0.3"
 pimoroni-bme280 = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+webserver = "enviroweb.webserver:run"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

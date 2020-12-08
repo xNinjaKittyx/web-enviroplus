@@ -45,3 +45,6 @@ bme280 = BME280()
 print(bme280.get_temperature())
 print(bme280.get_pressure())
 print(bme280.get_humidity())
+
+def run():
+    pass
