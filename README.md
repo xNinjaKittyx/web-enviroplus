@@ -1,6 +1,6 @@
-# This is not ready yet.
+# web-enviroplus
 
-This is a WIP currently. It has no real functionality yet.
+Currently this project is pretty barebones. There's some functionality, but its fairly simple.
 
 The plan is to make an enviroplus REST API webserver so that you can use it to remotely ingest whatever data you want.
 
